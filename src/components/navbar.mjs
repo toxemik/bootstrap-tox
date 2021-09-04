@@ -1,9 +1,16 @@
 const data = {
-
+    navbar: {
+        style: `
+            background-color: #F4F4F4;
+            border: none;
+            padding-top: 3em;
+            padding-bottom: 3em;
+        `
+    }
 }
 
 const template = `
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" style="${ data.navbar.style }">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
